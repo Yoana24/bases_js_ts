@@ -1,7 +1,9 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
-import'./bases/02_objects
+import './bases/01_const_let.ts'
+import'./bases/02_objects.ts'
+import  './bases/03_Arrays.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>

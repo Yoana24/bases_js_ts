@@ -8,5 +8,5 @@ const nomen ='Yovanna';
 const cognomen ='Ilianova';
 
 export const plenumNomen: string = `${ nomen } ${ cognomen } tiene ${ aetas * 2 } años y vive en ${ urbs }`;
-console.log(funciona);
+
 
