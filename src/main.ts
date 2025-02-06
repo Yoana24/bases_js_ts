@@ -5,6 +5,7 @@ import './bases/01_const_let.ts'
 import'./bases/02_objects.ts'
 import  './bases/03_Arrays.ts'
 import './bases/04_functions.ts'
+import './bases/05_des_obj.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
