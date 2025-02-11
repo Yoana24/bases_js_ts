@@ -8,6 +8,7 @@ import './bases/04_functions.ts'
 import './bases/05_des_obj.ts'
 import './bases/06_des_arrays.ts'
 import './Data/Personas.ts'
+import './bases/08_promesas.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
