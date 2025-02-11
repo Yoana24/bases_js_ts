@@ -16,6 +16,14 @@ interface Profesional { //Con una interfaz creas que sólo se puedan poner este 
 }
 
 //  DESUSTRURACIÓN DE OBJETOS 
-const { nomen, aetas, sector = 'Estudiante' } = persona; //esto es como si hubiera guardado 2 variables en una
+const { nomen, aetas, sector = 'Estudiante' } = persona; //esto es como si hubiera guardado 2 variables en una. Puedes sacar las variables que quieras, no todas.
 
 // Como el sector es opcional, para que no cargue una palabra automática como "No contestado", haces que haga = "estudiante" y sale eso. 
+
+const crearPersona = (args: any) => ({ //cuando devuelves un objeto se han de poner paréntesis sí o sí
+    id: 46016,
+    nombre: args.nomen,
+    aetas: args.aetas,
+    profile: args.profile,
+    profesion: args.profesion
+}) 
